@@ -1,0 +1,42 @@
+nav {
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+}
+
+nav div a {
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 10px 0 10px;
+}
+
+nav div.active a {
+    color: #FFF;
+    background: #000;
+}
+
+nav div.active span {
+    display: none;
+}
+
+nav div span {
+    background: #43F;
+    height: 3px;
+    width: auto;
+    margin: 0 50px 0 50px;
+}
+
+@media screen and (max-width: 580px) {
+    nav {
+        margin-bottom: 40px;
+    }
+
+    nav div {
+        margin-bottom: 20px;
+    }
+}

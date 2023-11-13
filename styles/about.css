@@ -1,0 +1,51 @@
+.contentBlock-demonstrationBlocks {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.contentBlock-demonstrationBlocks-block {
+    display: flex;
+    overflow: hidden;
+    background: #DDD;
+    border-radius: 20px;
+    width: 49%;
+    float: left;
+    margin: 20px;
+    margin-top: 50px;
+    height: 300px;
+    position: relative;
+}
+
+.contentBlock-demonstrationBlocks-block-chap-title {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin: 30px;
+    width: 40%;
+}
+
+.contentBlock-demonstrationBlocks-block-chap-text {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 30px;
+    width: 40%;
+}
+
+.contentBlock-demonstrationBlocks-block img {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    right: -60%;
+    top: -150px;
+    position: relative;
+    border-radius: 15px;
+}
